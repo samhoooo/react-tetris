@@ -36,7 +36,7 @@ export const TETROMINOS = {
 }
 
 export const ramdonTetromino = () => {
-    const tetrominos = 'IJLOSTZ';
+    const tetrominos = 'IJOTZ';
     const randTetromino = tetrominos[Math.floor(Math.random() * tetrominos.length)];
     return TETROMINOS[randTetromino];
 }
